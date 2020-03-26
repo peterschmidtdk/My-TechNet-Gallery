@@ -1,0 +1,12 @@
+This script copies the beautiful Windows 10 Spotlight pictures to another folder, so you can use them as background in Windows or on your phone.
+As these images rotate from the original Spotlight locations maintained by Windows, so if you really want to backup all, please run this script every day.
+  
+During the backup process this script checks for if the picture is vertical or horizotal and moves to different folders.
+
+The script can be schedule to run everyday.
+
+Latest version: 3.0
+
+Credit also goes to Claus Nielsen (MVP) - http://www.xipher.dk/ - for input and help with some issues.
+
+Hope you like it. Remember to changes the target path in the script.
