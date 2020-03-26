@@ -1,0 +1,22 @@
+Version 1.1 (Last updated: 2014-03-13).
+Code mvoed from Tech Gallery to Github (2020.03).
+
+Change-MailboxType.ps1 is a simple script for Exchange 2010 or newer, that makes it easier to change a regular Mailbox to either a Room, Equipment or Shared Mailbox vice versa. The script display a small menu with options. No need to remember PowerShell parameters.
+
+Should also support Office 365, after a remote connection has been made to Office 365, see one of my blog post:
+
+http://www.msdigest.net/2012/03/how-to-remote-powershell-into-exchange-online-office-365/
+
+When the script starts, it displays a menu, from where you can choose among 7 options:
+
+1) Show Recipient Type of a Mailbox
+2) Change Mailbox Type to a Room
+3) Change Mailbox Type to Equipment
+4) Change Mailbox Type to a Regular Mailbox
+5) Change Mailbox to a Shared Mailbox
+6) Change Booking Window In Days for all Rooms (set number of days)
+7) Change Booking Window In Days for all Equipment (set number of days)
+
+The script Change-MailboxType.ps1 is made so it is easier and quicker to change Mailbox Type. The script is extended with a feature to extend the BookingWindowInDays for both Rooms and Equipment.
+
+Will not work fully for Exchange 2007. Should work fine with Exchange 2013+ and for Office 365.
