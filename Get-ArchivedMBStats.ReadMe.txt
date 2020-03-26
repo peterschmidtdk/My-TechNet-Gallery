@@ -1,0 +1,23 @@
+Version 1.0 of the script, created: 2011.09.29.
+Code moved from TechNet Gallery to GitHub (2020.03).
+
+By Peter Schmidt. (Blog: www.msdigest.net)
+
+This little script, will list statistics over Archived Mailboxes in Exchange 2010 and 2013.
+
+OUTPUT EXAMPLE:
+
+Display Name                 TotalItemSize (MB)               ItemCount Database                RetentionPolicy
+------------                 ------------------             --------- --------                ---------------
+Peter Schmidt                               147                    3572 EXDB01                  Default Archive and ...
+Online Archive - Pet...                     430                    4798 ARDB01
+
+
+HOW TO RUN:
+
+.\Get-ArchivedMBStats.ps1 | ft
+
+
+You cannot pipe objects to this script.
+
+For comments and feedback, please use my blog post about this script: http://www.msdigest.net/2011/09/get-exchange-2010-archive-mailbox-statistics-powershell-script/
