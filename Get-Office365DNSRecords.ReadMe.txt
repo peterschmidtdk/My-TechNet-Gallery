@@ -1,0 +1,40 @@
+Updated: 2014.04.11
+- Version 1.1. - fixed typo when lyncdiscover record not found.
+
+Get-Office365DNSRecords.ps1 is a small powershell utilities, to report the DNS records needed for all Office 365.
+
+It creates two report, one listed in the PowerShell prompt and a more detailed report saved to results.txt.
+
+Example of the prompted report for e.g. contoso.com:
+
+No autodiscover record found for contoso.com
+MX Records found for contoso.com
+SIP TLS Records found for contoso.com
+SIP Federation TLS Records found for contoso.com
+No SIP record found for contoso.com
+Lyncdiscover Record found for contoso.com
+No MSOID record found for contoso.com
+
+It is made to quickly validate DNS records for Office 365 setup.
+
+---
+
+This script scans a CSV file for a list of domains and then scans each domain for DNS records that may indicate which Office 365 services is setup in DNS.
+
+All information is written as detailed output to a text file (results.txt).
+
+Note: These are public DNS records, this is not getting anything not already published by the domain owner.
+
+Use at your own risk, get the domain providers permission, look both ways before crossing the road.
+
+Example use: Take a list the common domains your company emails and check if any of them may be used with Office 365.
+
+It expects a CSV with a single column titled domains.
+
+Credits and thanks goes to these guys:
+
+This script requires PoshNet.dll from http://huddledmasses.org/powershell-dig-nslookup-cmdlet/ - huge credit and thanks for PoshNet to Joel 'Jaykul' Bennett
+
+This script is inspired from Tom Arbuthnot original Lync DNS script, found at (http://lyncdup.com/2011/11/script-get-lyncdnssrvrecords-ps1-check-a-list-of-domains-for-possible-ocslync-federation/)
+
+Feedback are always welcome, please feedback at www.msdigest.net.
