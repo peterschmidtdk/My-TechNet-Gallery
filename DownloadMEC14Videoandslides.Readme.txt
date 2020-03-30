@@ -1,0 +1,7 @@
+Microsoft has published all sessions from Microsoft Exchange Conference 2014, which was held in March, Austin, TX. The sessions are available on Channel9.
+
+This script will download all videos from Channel9 in mp4 high quality and slides (pptx) for all sessions, where available.
+
+Inspired from the original script by Vlad Catrinescu (http://absolute-sharepoint.com) who made a script for the SharePoint Conf 2014. I have updated it to handle MEC 2014.
+
+All content are saved to C:\MEC2014.
