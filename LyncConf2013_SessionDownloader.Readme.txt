@@ -1,0 +1,22 @@
+updated May 16th 2013: version 1.6 - fixed download bug with ver. 1.5.
+
+If you want to download the Lync Conference sessions for offline viewing.
+
+I wanted to download the sessions as easy as possible and then the work on a PowerShell script started, which could automatically download the sessions for me. I have previously seen similar scripts for TechEd and MMS. So I adapted the script from TechEd and modified and optimized it for my use (Thanks to original credits below).
+
+The script is made available, so everyone hopefully can benefit from it.
+
+The script automatically downloads videos, PowerPoints or both, from the LyncConf.com site.
+
+Be aware that it might take a long time to download, the full content is approx 26 GB.
+
+Current version of the script: 1.4
+
+Original post about the script: <a href:"http://http://www.msdigest.net/2013/04/lync-conference-2013-sessionsdownload-using-powershell/">MSdigest.net</a>
+
+Credits towards the original script (TechEd downloader):
+
+Stefan Roth – http://blog.SCOMfaq.ch
+Tim Nilimaa – http://infoworks.tv
+Jared Shockley – http://jaredontech.com
+Brad Huffman – http://bradhuffman.com
